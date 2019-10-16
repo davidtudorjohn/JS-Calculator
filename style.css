@@ -1,0 +1,42 @@
+input{
+    padding: 32px;
+    max-width: 60px;
+    max-height: 60px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+#display{
+    width: 210px;
+    max-width: 210px;
+    height: 80px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+}
+tr{
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+}
+form{
+    max-width: 210px;
+}
+.operator{
+    outline: none;
+    border: non;
+    background-color: orange;
+    color: #fefefe;
+    font-size: 18px;
+}
+#equals{
+    background-color: blueviolet;
+    color: #fefefe;
+
+}
+#clear{
+    background-color: red;
+    color: #fefefe;
+    
+}
